@@ -1,8 +1,8 @@
 public class NewRequestBul {
 
-    private String id;
+    private Integer id;
 
-    public NewRequestBul(String id) {
+    public NewRequestBul(Integer id) {
         this.id = id;
     }
 }

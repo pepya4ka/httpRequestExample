@@ -15,14 +15,12 @@ public class Main {
     public static void main(String[] args) {
 
         RequestBul requestBul = new RequestBul("1234", "firstuser@mail.ru");
-//        NewRequestBul requestBul = new NewRequestBul(70087560);
 
         String address = "deremenko.simsim.ftp.sh";//
         int port = 4048;
         String page = "login";
 
         String postUrl = "http://" + address + ":" + port + "/" + page;
-//        String postUrl = "http://localhost:8080/demo/getCoins/";
 
         Gson gson = new Gson();
         HttpClient httpClient = HttpClientBuilder.create().build();
